@@ -12,7 +12,7 @@ Organizations often maintain employee information across multiple applications. 
 
 Manual synchronization can lead to:
 
-* Data inconsistencies between systems
+* Data inconsistencies between systems 
 * Delayed payroll processing
 * Increased operational effort
 * Human errors during data updates
