@@ -75,15 +75,6 @@ The change is detected, validated, transferred, and applied to the Payroll datab
 * SQLite
 * JSON
 
-## Future Improvements
-
-* FastAPI integration
-* PostgreSQL support
-* Direct MCP communication between services
-* Audit and monitoring dashboard
-* Message queue integration
-* Automated retry handling
-
 ## Learning Outcomes
 
 This project helped me understand:
