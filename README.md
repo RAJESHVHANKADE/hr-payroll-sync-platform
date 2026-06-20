@@ -1,4 +1,4 @@
-# HR-Payroll Data Synchronization Platform
+# Multi-Agent HR-Payroll Synchronization Platform
 
 A prototype integration platform that demonstrates how employee data changes can be automatically synchronized between HR and Payroll systems using Model Context Protocol (MCP), LangChain, and Python.
 
