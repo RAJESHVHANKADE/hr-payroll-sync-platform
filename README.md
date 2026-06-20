@@ -6,47 +6,6 @@ The project simulates a common enterprise workflow where employee records mainta
 
 ---
 
-## Business Problem
-
-Organizations often maintain employee information across multiple applications. When changes such as salary revisions, department transfers, designation updates, or employee status changes occur in the HR system, those updates must also be reflected in Payroll.
-
-Manual synchronization can lead to:
-
-* Data inconsistencies between systems 
-* Delayed payroll processing
-* Increased operational effort
-* Human errors during data updates
-
-This project demonstrates an automated approach to detecting and synchronizing employee changes between independent systems.
-
----
-
-## Solution Overview
-
-The platform consists of two independent systems:
-
-### HR System
-
-Responsible for:
-
-* Managing employee records
-* Detecting employee data changes
-* Validating updates
-* Generating synchronization payloads
-
-### Payroll System
-
-Responsible for:
-
-* Receiving employee updates
-* Validating incoming data
-* Applying approved changes
-* Maintaining synchronized payroll records
-
-Communication between systems is implemented through MCP tools and structured JSON payloads.
-
----
-
 # Architecture
 
 The platform synchronizes employee updates between independent HR and Payroll systems using MCP servers, workflow agents, and structured JSON payloads.
@@ -113,6 +72,49 @@ flowchart TD
 | Payroll Database   | Stores synchronized payroll information                   |
 
 ---
+
+
+## Business Problem
+
+Organizations often maintain employee information across multiple applications. When changes such as salary revisions, department transfers, designation updates, or employee status changes occur in the HR system, those updates must also be reflected in Payroll.
+
+Manual synchronization can lead to:
+
+* Data inconsistencies between systems 
+* Delayed payroll processing
+* Increased operational effort
+* Human errors during data updates
+
+This project demonstrates an automated approach to detecting and synchronizing employee changes between independent systems.
+
+---
+
+## Solution Overview
+
+The platform consists of two independent systems:
+
+### HR System
+
+Responsible for:
+
+* Managing employee records
+* Detecting employee data changes
+* Validating updates
+* Generating synchronization payloads
+
+### Payroll System
+
+Responsible for:
+
+* Receiving employee updates
+* Validating incoming data
+* Applying approved changes
+* Maintaining synchronized payroll records
+
+Communication between systems is implemented through MCP tools and structured JSON payloads.
+
+---
+
 
 ## Synchronization Flow
 
